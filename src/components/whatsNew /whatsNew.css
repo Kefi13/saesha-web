@@ -1,0 +1,29 @@
+
+.whatsNew-container{
+  display: flex;
+  padding: 3rem;
+}
+
+.whatsNew-image-container{
+  height: 63rem;
+  width: 72rem;
+}
+
+.WhatsNew-text{
+  padding-top: 7rem;
+  padding-right: 4rem;
+}
+
+.whatsNew-heading{
+  font-size: 8rem;
+  margin: 5rem;
+  font-weight: bolder;
+}
+
+.whatsNew-paragraph{
+  margin: 5rem;
+  font-size: 2.3rem;
+  text-align: justify;
+}
+
+

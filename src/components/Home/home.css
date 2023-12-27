@@ -1,0 +1,30 @@
+
+.home-container{
+    display: flex;
+    padding: 3rem;
+  }
+  
+  .home-image-container{
+    height: 65rem;
+    width: 70rem;
+  }
+
+  .home-text{
+    padding-top: 7rem;
+    padding-right: 4rem;
+  }
+
+  .home-heading{
+    font-size: 12rem;
+    margin: 5rem;
+    font-weight: bolder;
+  }
+
+  .home-paragraph{
+    margin: 5rem;
+    font-size: 2.3rem;
+    text-align: justify;
+  }
+  
+
+  
