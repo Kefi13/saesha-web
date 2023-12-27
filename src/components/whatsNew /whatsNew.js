@@ -4,6 +4,7 @@ import "./whatsNew.css";
 
 const WhatsNew = ()=>{
     return(
+        <section id='whatsNew'>
         <div className="whatsNew-container">
            <img className="whatsNew-image-container" src={whatsNewImg} alt="about here " />
           
@@ -18,6 +19,7 @@ const WhatsNew = ()=>{
           </div>
           
         </div>
+        </section>
     );
 }
 export default WhatsNew

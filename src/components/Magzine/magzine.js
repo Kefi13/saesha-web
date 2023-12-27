@@ -45,6 +45,7 @@ const Magzine= ()=>{
       
      
     return(
+        <section id='magzine'>
         <div className="magzine-container">
             <text className="magzine-heading"> Magzine </text>
     
@@ -65,6 +66,7 @@ const Magzine= ()=>{
 
 
         </div>
+        </section>
     );
 }
 

@@ -2,7 +2,6 @@ import React from "react";
 import './navbar.css';
 import logo from '../../assets/logo.jpg'
 import { Link } from "react-scroll";
-import About from "../whatsNew /whatsNew";
 
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -14,11 +13,11 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
         <img src={logo} alt="Logo goes here" className="logo"/>
         <div className="navbarMenuItemList">
             
-            <Link className="navbarMenuItem" to={About}>Home </Link>
-            <Link className="navbarMenuItem" to={About}>What's New  </Link>
-            <Link className="navbarMenuItem" to={About}>Closet </Link>
-            <Link className="navbarMenuItem" to={About}>Magzine</Link>
-            <Link className="navbarMenuItem" to={About}>Xesthetix world</Link>
+            <Link activeClass="active" to='home' spy={true} smooth={true} offset={-100} duration={500} className="navbarMenuItem" >Home </Link>
+            <Link activeClass="active" to='whatsNew' spy={true} smooth={true} offset={-100} duration={500} className="navbarMenuItem" >What's New  </Link>
+            <Link activeClass="active" to='closet' spy={true} smooth={true} offset={-100} duration={500} className="navbarMenuItem" >Closet </Link>
+            <Link activeClass="active" to='magzine' spy={true} smooth={true} offset={-100} duration={500} className="navbarMenuItem" >Magzine</Link>
+            <Link className="navbarMenuItem" >Xesthetix world</Link>
 
             
         </div>

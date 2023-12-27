@@ -4,6 +4,7 @@ import "./home.css";
 
 const Home = ()=>{
     return(
+      <section id='home'>
         <div className="home-container">
           
           <div className="home-text">
@@ -18,6 +19,7 @@ const Home = ()=>{
           <img className="home-image-container" src={aboutImg} alt="about here " />
         
         </div>
+        </section>
     );
 }
 export default Home

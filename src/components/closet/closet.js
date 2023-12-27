@@ -43,6 +43,7 @@ const Closet= ()=>{
       
      
     return(
+      <section id='closet'>
         <div className="Closet-container">
             <text className="closet-heading"> Closet </text>
     
@@ -63,6 +64,7 @@ const Closet= ()=>{
 
 
         </div>
+        </section>
     );
 }
 
