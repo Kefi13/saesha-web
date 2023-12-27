@@ -1,0 +1,45 @@
+.magzine-container{
+   
+    padding-left: 10rem;
+    padding-top: 5rem;
+    
+}
+.magzine-heading{
+    font-size: 8rem;
+    text-align: center;
+    padding-left: 48rem;
+    font-weight: bold;
+
+}
+
+.slider-container{
+    align-items: center;
+    padding-top: 5rem;
+    
+}
+
+.magzine-image{
+    align-items: center;
+    padding-left: 4rem;
+    width: 100rem;
+    height: 50rem;
+}
+
+.arrow-m {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #fafafa;
+    
+    
+  }
+  
+  .next-m {
+    right: 10px;
+    padding-right: 10rem;
+  }
+  
+  .prev-m {
+    left: 10px;
+  }
